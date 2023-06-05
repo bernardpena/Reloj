@@ -40,3 +40,24 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+
+
+
+@media screen and (min-width:320px) and  (max-width:415px){
+    body{
+        background-size: cover;
+        
+    }
+    
+    .clock{
+        max-width: 240px;
+    }
+    .clock h1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .clock span{
+        font-size: 10px;
+        font-weight: 200;
+    }
+}
